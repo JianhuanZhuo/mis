@@ -66,7 +66,6 @@ cc.game.onStart = function(){
         sys.browserType !== sys.BROWSER_TYPE_WECHAT) {
         cc.view.enableAutoFullScreen(true);
     }
-
     // Adjust viewport meta
     cc.view.adjustViewPort(true);
 
@@ -80,6 +79,7 @@ cc.game.onStart = function(){
 
     // The game will be resized when browser size change
     cc.view.resizeWithBrowserSize(true);
+
 
     //load resources
     cc.LoaderScene.preload(g_resources, function () {
